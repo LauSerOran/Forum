@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum_client_lourd", "Forum_client_lourd\Forum_client_lourd.csproj", "{798BA7EC-826D-4C18-AA88-8A1E3C23F6B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliotheque", "Bibliotheque\Bibliotheque.csproj", "{F2387849-B2CC-4B24-AB62-6D7496F58629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{798BA7EC-826D-4C18-AA88-8A1E3C23F6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798BA7EC-826D-4C18-AA88-8A1E3C23F6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798BA7EC-826D-4C18-AA88-8A1E3C23F6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798BA7EC-826D-4C18-AA88-8A1E3C23F6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2387849-B2CC-4B24-AB62-6D7496F58629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2387849-B2CC-4B24-AB62-6D7496F58629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2387849-B2CC-4B24-AB62-6D7496F58629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2387849-B2CC-4B24-AB62-6D7496F58629}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
