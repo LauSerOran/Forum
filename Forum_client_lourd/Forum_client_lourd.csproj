@@ -95,6 +95,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Utilisateur.resx">
       <DependentUpon>Utilisateur.cs</DependentUpon>
@@ -120,6 +121,9 @@
       <Project>{f2387849-b2cc-4b24-ab62-6d7496f58629}</Project>
       <Name>Bibliotheque</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper-848574.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

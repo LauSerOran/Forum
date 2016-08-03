@@ -42,7 +42,7 @@
             this.btConnect.BackColor = System.Drawing.Color.LimeGreen;
             this.btConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btConnect.ForeColor = System.Drawing.Color.Yellow;
-            this.btConnect.Location = new System.Drawing.Point(106, 184);
+            this.btConnect.Location = new System.Drawing.Point(238, 184);
             this.btConnect.Name = "btConnect";
             this.btConnect.Size = new System.Drawing.Size(91, 31);
             this.btConnect.TabIndex = 0;
@@ -53,31 +53,37 @@
             // lbId
             // 
             this.lbId.AutoSize = true;
-            this.lbId.Location = new System.Drawing.Point(47, 76);
+            this.lbId.BackColor = System.Drawing.Color.Transparent;
+            this.lbId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbId.ForeColor = System.Drawing.Color.Yellow;
+            this.lbId.Location = new System.Drawing.Point(65, 76);
             this.lbId.Name = "lbId";
-            this.lbId.Size = new System.Drawing.Size(59, 13);
+            this.lbId.Size = new System.Drawing.Size(77, 17);
             this.lbId.TabIndex = 1;
             this.lbId.Text = "Identifiant :";
             // 
             // lbMdp
             // 
             this.lbMdp.AutoSize = true;
-            this.lbMdp.Location = new System.Drawing.Point(47, 124);
+            this.lbMdp.BackColor = System.Drawing.Color.Transparent;
+            this.lbMdp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMdp.ForeColor = System.Drawing.Color.Yellow;
+            this.lbMdp.Location = new System.Drawing.Point(65, 124);
             this.lbMdp.Name = "lbMdp";
-            this.lbMdp.Size = new System.Drawing.Size(77, 13);
+            this.lbMdp.Size = new System.Drawing.Size(101, 17);
             this.lbMdp.TabIndex = 2;
             this.lbMdp.Text = "Mot de passe :";
             // 
             // txtBxIdentifiant
             // 
-            this.txtBxIdentifiant.Location = new System.Drawing.Point(142, 73);
+            this.txtBxIdentifiant.Location = new System.Drawing.Point(238, 73);
             this.txtBxIdentifiant.Name = "txtBxIdentifiant";
             this.txtBxIdentifiant.Size = new System.Drawing.Size(100, 20);
             this.txtBxIdentifiant.TabIndex = 3;
             // 
             // txtBxMotDePasse
             // 
-            this.txtBxMotDePasse.Location = new System.Drawing.Point(142, 121);
+            this.txtBxMotDePasse.Location = new System.Drawing.Point(238, 124);
             this.txtBxMotDePasse.Name = "txtBxMotDePasse";
             this.txtBxMotDePasse.Size = new System.Drawing.Size(100, 20);
             this.txtBxMotDePasse.TabIndex = 4;
@@ -94,20 +100,27 @@
             // 
             // chkBxVisiteur
             // 
+            this.chkBxVisiteur.Appearance = System.Windows.Forms.Appearance.Button;
             this.chkBxVisiteur.AutoSize = true;
-            this.chkBxVisiteur.Location = new System.Drawing.Point(106, 161);
+            this.chkBxVisiteur.BackColor = System.Drawing.Color.Transparent;
+            this.chkBxVisiteur.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.chkBxVisiteur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBxVisiteur.ForeColor = System.Drawing.Color.Red;
+            this.chkBxVisiteur.Location = new System.Drawing.Point(68, 188);
             this.chkBxVisiteur.Name = "chkBxVisiteur";
-            this.chkBxVisiteur.Size = new System.Drawing.Size(60, 17);
+            this.chkBxVisiteur.Size = new System.Drawing.Size(59, 23);
             this.chkBxVisiteur.TabIndex = 8;
             this.chkBxVisiteur.Text = "Visiteur";
-            this.chkBxVisiteur.UseVisualStyleBackColor = true;
+            this.chkBxVisiteur.UseVisualStyleBackColor = false;
             this.chkBxVisiteur.CheckedChanged += new System.EventHandler(this.chkBxVisiteur_CheckedChanged);
             // 
             // Accueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.BackgroundImage = global::Forum_client_lourd.Properties.Resources.wallpaper_848574;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(372, 245);
             this.Controls.Add(this.chkBxVisiteur);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.txtBxMotDePasse);
