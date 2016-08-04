@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,23 +19,26 @@ namespace Forum_client_lourd
             InitializeComponent();
         }
 
+
+        
         private void testDroits(Boolean visiteur)
         {
-            if(visiteur)
+            if (visiteur)
             {
                 Visiteur Form1 = new Visiteur();
+                MessageBox.Show("Vous êtes un simple visiteur, vous ne pourrez pas laisser de réponse sur un sujet.");
                 Form1.ShowDialog();
             }
             else
             {
-                if(string.IsNullOrEmpty(txtBxIdentifiant.Text) || string.IsNullOrEmpty(txtBxMotDePasse.Text) || string.IsNullOrWhiteSpace(txtBxIdentifiant.Text) || string.IsNullOrWhiteSpace(txtBxMotDePasse.Text))
+                if (string.IsNullOrEmpty(txtBxIdentifiant.Text) || string.IsNullOrEmpty(txtBxMotDePasse.Text) || string.IsNullOrWhiteSpace(txtBxIdentifiant.Text) || string.IsNullOrWhiteSpace(txtBxMotDePasse.Text))
                 {
                     MessageBox.Show("Vous devez vous identifier avec un identifiant et un mot de passe");
                 }
                 else
                 {
                     MessageBox.Show("Vous êtes identifié, redirection vers l'administrateur pour les tests");
-                    //MessageBox.Show("Vous êtes identifié, redirection vers modérateur pour les tests");
+                    // MessageBox.Show("Vous êtes identifié, redirection vers modérateur pour les tests");
                     // TODO tests de l'identifiant rt redirection vers la bonne page
                     // Moderateur Form1 = new Moderateur();
                     Administrateur Form1 = new Administrateur();
@@ -65,10 +69,10 @@ namespace Forum_client_lourd
 
         private void chkBxVisiteur_CheckedChanged(object sender, EventArgs e)
         {
-            
+
             txtBxIdentifiant.Enabled = !chkBxVisiteur.Checked;
             txtBxMotDePasse.Enabled = !chkBxVisiteur.Checked;
-            if(chkBxVisiteur.Checked)
+            if (chkBxVisiteur.Checked)
             {
                 btConnect.BackColor = Color.DeepPink;
             }

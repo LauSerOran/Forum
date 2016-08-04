@@ -2,7 +2,7 @@
 
 public class Reponse
 {
-	public Reponse()
-	{
-	}
+    public Reponse()
+    {
+    }
 }

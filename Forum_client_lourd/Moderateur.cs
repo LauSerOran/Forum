@@ -21,13 +21,13 @@ namespace Forum_client_lourd
 
         private void enregistrer(Boolean suppr)
         {
-            if(suppr == true)
+            if (suppr == true)
             {
-                MessageBox.Show("Vous supprimez "+typeMod);
+                MessageBox.Show("Vous supprimez " + typeMod);
             }
             else
             {
-                MessageBox.Show("Vous modifiez "+typeMod);
+                MessageBox.Show("Vous modifiez " + typeMod);
             }
         }
 

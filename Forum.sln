@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forum_client_lourd", "Forum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliotheque", "Bibliotheque\Bibliotheque.csproj", "{F2387849-B2CC-4B24-AB62-6D7496F58629}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Modelisation_UML", "Modelisation_UML\Modelisation_UML.modelproj", "{422DBD0A-48B7-449B-9A2A-BD4B7B0CB198}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F2387849-B2CC-4B24-AB62-6D7496F58629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2387849-B2CC-4B24-AB62-6D7496F58629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2387849-B2CC-4B24-AB62-6D7496F58629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422DBD0A-48B7-449B-9A2A-BD4B7B0CB198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422DBD0A-48B7-449B-9A2A-BD4B7B0CB198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422DBD0A-48B7-449B-9A2A-BD4B7B0CB198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422DBD0A-48B7-449B-9A2A-BD4B7B0CB198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
