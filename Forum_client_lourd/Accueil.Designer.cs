@@ -90,7 +90,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(170, 39);
+            this.button3.Location = new System.Drawing.Point(12, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(42, 23);
             this.button3.TabIndex = 6;
@@ -100,15 +100,15 @@
             // 
             // chkBxVisiteur
             // 
-            this.chkBxVisiteur.Appearance = System.Windows.Forms.Appearance.Button;
             this.chkBxVisiteur.AutoSize = true;
             this.chkBxVisiteur.BackColor = System.Drawing.Color.Transparent;
+            this.chkBxVisiteur.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.chkBxVisiteur.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.chkBxVisiteur.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkBxVisiteur.ForeColor = System.Drawing.Color.Red;
-            this.chkBxVisiteur.Location = new System.Drawing.Point(170, 118);
+            this.chkBxVisiteur.Location = new System.Drawing.Point(68, 191);
             this.chkBxVisiteur.Name = "chkBxVisiteur";
-            this.chkBxVisiteur.Size = new System.Drawing.Size(59, 23);
+            this.chkBxVisiteur.Size = new System.Drawing.Size(66, 17);
             this.chkBxVisiteur.TabIndex = 8;
             this.chkBxVisiteur.Text = "Visiteur";
             this.chkBxVisiteur.UseVisualStyleBackColor = false;
